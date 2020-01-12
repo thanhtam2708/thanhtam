@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1570438767 source:c:\users\duckiez\desktop\tam\ham\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1570438767 source:c:\users\duckiez\desktop\tam\lab 5\bai 3-ham hoan vi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
