@@ -1,0 +1,219 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2020, 8:46:44 PM
+    Author     : duckiez
+*/
+body{
+    padding: 0px;
+    width: 1000px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+#banner{
+    height: auto;
+    width: 1000px;
+}
+.slider{
+    display: flex;
+    overflow-x: auto;
+    width: 1000px;
+    height: 330px;
+}
+#menu{
+    background: #ccccff;
+    height: 40px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+#menu ul li a{
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px 0px 20px;
+}
+#menu li:hover{
+    background: #3399ff;
+}
+#menu ul li:hover ul{
+    display: block;
+    width: 250px;
+}
+
+#sub-menu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+#sub-menu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orange;
+    text-decoration: none;
+    color: orangered;
+}
+#sub-menu>li>a:hover{
+    color: red;
+    font-weight: bolder;
+    background-color: orange;
+}
+#main{
+    margin-top: 10px;
+}
+#main #left{
+    width: 700px;
+    float: left;
+    min-height: 400px;
+}
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+   
+}
+#main #left ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #333333;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;  
+}
+#main #left ul img{
+    float: left;
+    margin-right: 10px;  
+    margin-bottom: 20px;
+}
+#main #right{
+    width: 300px;
+    background: beige;
+    float: left;
+    min-height: 400px;
+}
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul {
+    list-style: none;
+    background: #ffffcc;
+    border-bottom: 2px solid #333333;
+}
+.nav li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #e8e8e8;
+  padding: 0 1em;
+}
+.nav li:hover{
+    background: #ffff99;
+    text-decoration: underline;
+}
+.nav li a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.nav img{
+    float: left;
+    margin-right: 10px;  
+    margin-bottom: 20px;
+}
+.nav {
+    font-size: 15px;
+}
+#footer{
+    clear: both;
+    background: #66ccff;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-group label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.form{
+    width: 600px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #ff6633;
+    padding: 20px;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=text], input[list=place] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#menu ul li:hover ul{
+    display: block;
+    width: 250px;
+}
+#vmenu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orange;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+#vmenu>li>a{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: orangered;
+    border-bottom: 1px dotted orange;
+    font-variant: small-caps;
+}
+#vmenu>li>a:hover{
+    background-color: orange;
+    font-weight: bold;
+}
+

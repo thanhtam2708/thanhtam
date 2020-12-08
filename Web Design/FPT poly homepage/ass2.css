@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2020, 8:41:17 PM
+    Author     : duckiez
+*/
+body{
+    padding: 0px;
+    width: 1000px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+#banner{
+    height: auto;
+    width: 1000px;
+}
+#menu{
+    background: #ccccff;
+    height: 40px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+}
+#menu ul li a{
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px 0px 20px;
+}
+#menu li:hover{
+    background: #3399ff;
+}
+#menu input[type=text]{
+    float:right;
+    padding: 5px;
+    margin-top: 3px;
+    margin-right:80px;
+}
+#menu  button{
+  float: right;
+  padding: 5px;
+  margin-top: 3px;
+  margin-right: -250px;
+}
+#menu  button:hover{
+    background: #ccc;
+}
+.slider{
+    display: flex;
+    overflow-x: auto;
+    width: 1000px;
+    height: 330px;
+}
+#main{
+    margin-top: 10px;
+}
+#main #left{
+    width: 500px;
+    float: left;
+    min-height: 400px;
+}
+#main #right{
+    width: 500px;
+    float: left;
+    min-height: 400px;
+}
+#main #right img{
+    float: left;
+    margin-right: 10px;  
+    margin-bottom: 20px;
+}
+#footer{
+    clear: both;
+    background: #66ccff;
+}

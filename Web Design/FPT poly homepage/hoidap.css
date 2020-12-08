@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2020, 1:35:53 PM
+    Author     : duckiez
+*/
+body{
+    padding: 0px;
+    width: 1000px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+#banner{
+    height: auto;
+    width: 1000px;
+}
+.slider{
+    display: flex;
+    overflow-x: auto;
+    width: 1000px;
+    height: 330px;
+}
+#menu{
+    background: #ccccff;
+    height: 40px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+}
+#menu ul li a{
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px 0px 20px;
+    
+}
+#menu li:hover{
+    background: #3399ff;
+}
+#menu input[type=text]{
+    float:right;
+    padding: 6px;
+    margin-top: 3px;
+    margin-right:80px;
+}
+#menu  button{
+  float: right;
+  padding: 6px;
+  margin-top: 3px;
+  margin-right: -250px;
+}
+#menu  button:hover{
+    background: #ccc;
+}
+
+#main{
+    margin-top: 10px;
+}
+#main #left{
+    width: 700px;
+    float: left;
+    min-height: 400px;
+}
+dt{
+    color: orangered;
+    font-weight: bold;
+}
+#main #left #mucluc ul{
+    list-style: none;
+}
+#main #left #mucluc ul li{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+#main #left #mucluc ul li a{
+    text-decoration: none;
+}
+#main #left #mucluc a:hover{
+    text-decoration: underline;
+}
+#main #right{
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul {
+    list-style: none;
+    background: #ffffcc;
+    border-bottom: 2px solid #333333;
+}
+.nav li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #e8e8e8;
+  padding: 0 1em;
+}
+.nav li:hover{
+    background: #ffff99;
+    text-decoration: underline;
+}
+.nav li a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+#footer{
+    clear: both;
+    background: #66ccff;
+}
+
+

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://kit.fontawesome.com/236237b42b.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    #circle {
+        width: 20px;
+        height: 20px;
+        background: #7fee1d;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <header class="sticky top-0 bg-white border-b z-10">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="flex items-center py-5 ">
+                <a href="">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/logo-dark.png"
+                        width="159" alt="Metro">
+                </a>
+
+                <div class="md:ml-48 md:flex sm:flex flex justify-between w-full">
+                    <nav>
+                        <ul class="hidden md:flex" id="btn-menu">
+                            <li class="px-4"><a href="index.html">Home</a></li>
+                            <li class="px-4"><a href="shop1.html">Shop</a></li>
+                            <li class="px-4"><a href="">Pages</a></li>
+                            <li class="px-4"><a href="">Elenments</a></li>
+                            <li class="px-4"><a href="blog.html">Blog</a></li>
+                            <li class="px-4"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="flex">
+                        <a href="" class="px-4"><i class="far fa-user fa-lg"></i></a>
+                        <a href="" class="px-4"><i class="fas fa-shopping-cart fa-lg"></i></a>
+                        <a href="" class="px-4 hidden md:flex">$0.00</a>
+                        <button id="btn-mobile" class="md:hidden"><i class="fas fa-bars fa-lg px-4"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header-->
+
+    <section class="sale-up bg-gray-300 py-24 bg-bottom bg-center bg-fixed mt-10"
+        style="background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/banner.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="text-center">
+                <h2 class="font-medium sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Shop</h2>
+                <ul class="flex justify-center mb-20">
+                    <li class="px-1"><a href="index.html">Home</a></li>
+                    <li class="px-1"><i class="fas fa-chevron-right"></i></li>
+                    <li class="px-1"><a href="shop1.html">Shop</a></li>
+                    <li class="px-1"><i class="fas fa-chevron-right"></i></li>
+                    <li class="px-1"><a href="index.html">Product</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-12 gap-8 mt-10 px-4 xl:px-0">
+                <div class="col-span-9">
+                    <div class="md:flex justify-between">
+                        <div>
+                            <p>Showing 1–9 of 65 results</p>
+                        </div>
+
+                        <div class="flex">
+                            <form action="" class="border border-gray-300 rounded-md px-4 py-2">
+                                <select name="" id="">
+                                    <option value="">Sort by latest</option>
+                                    <option value="">Sort by popularity</option>
+                                    <option value="">Sort by average rating</option>
+                                    <option value="">Sort by price: low to high</option>
+                                    <option value="">Sort by price: high to low</option>
+                                </select>
+                            </form>
+                            <div class="flex ml-5">
+                                <a href="" class="border border-gray-300 rounded-md px-4 py-2"><i
+                                        class="fas fa-th"></i></a>
+                                <a href="" class="border border-gray-300 rounded-md px-4 py-2"><i
+                                        class="fas fa-th-list"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 ">
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class=" flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_12-1-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_8-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_2-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_12-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_2-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_7-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_1-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_10-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group overflow-hidden">
+                            <div
+                                class=" flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                                <a href="">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_12-360x432.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <span
+                                class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2">-86%</span>
+                            <div
+                                class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8">
+                                <h4><a href="#">Acetate Frame Sunglasses</a></h4>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+
+                            </div>
+                            <div
+                                class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                                <div class="flex justify-between">
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-heart text-white "></i></a>
+                                    <a href="#"
+                                        class="px-5 py-2 bg-black rounded-md text-white font-medium mx-2 uppercase">Add
+                                        to
+                                        card</a>
+                                    <a href="#" class="px-5 py-2 bg-black rounded-md"><i
+                                            class="fas fa-search text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center md:mt-10">
+                        <button class="border border-black bg-black text-white rounded-md text-xl px-5 py-2 mt-10">Load
+                            more</button>
+                    </div>
+                </div>
+
+                <div class="col-span-3">
+                    <form action=""
+                        class="flex justify-center items-center border border-gray-300 rounded-md mt-5 md:mt-0">
+                        <input type="text" name="" id="" placeholder="Search product..." class="px-4 py-2">
+                        <a href="" class="px-4 py-2"><i class="fas fa-search"></i></a>
+                    </form>
+                    <div>
+                        <h3 class="font-bold text-2xl">Categories</h3>
+                        <ul>
+                            <li class="py-2"><a href="">Accessories (8)</a></li>
+                            <li class="py-2"><a href="">Computer (1)</a></li>
+                            <li class="py-2"><a href="">Covid-19 (2)</a></li>
+                            <li class="py-2"><a href="">Electornics (8)</a></li>
+                            <li class="py-2"><a href="">Frame Sunglasses (10)</a></li>
+                            <li class="py-2"><a href="">Furniture (7)</a></li>
+                            <li class="py-2"><a href="">Genuine Leather (8)</a></li>
+                            <li class="py-2"><a href="">Gift Corners (2)
+                            <li class="py-2"><a href="">Jewellery (1)</a></li>
+                            <li class="py-2"><a href="">Kid’s Wear (1)</a></li>
+                            <li class="py-2"><a href="">Medical (6)</a></li>
+                            <li class="py-2"><a href="">Medical Accessories (7)</a></li>
+                            <li class="py-2"><a href="">Men (2)</a></li>
+                            <li class="py-2"><a href="">Modern Furniture (6)</a></li>
+                            <li class="py-2"><a href="">Other Medical (6)</a></li>
+                            <li class="py-2"><a href="">Shoes (1)</a></li>
+                            <li class="py-2"><a href="">Sport (3)</a></li>
+                            <li class="py-2"><a href="">Toys (2)</a></li>
+                            <li class="py-2"><a href="">Women (2)</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-xl">Price Filter</h3>
+                        <div class="flex justify-between">
+                            <div>
+                                <input type="range" min="1" max="500" value="50" class="w-full">
+                                <p>Price : $0 -- $690</p>
+                            </div>
+
+                            <button
+                                class="border border-black bg-black text-white rounded-md text-xl px-3 py-1">Filter</button>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="font-bold text-xl">Color</h3>
+                        <div class="flex">
+                            <div id="circle" class="mx-2" style="background-color: greenyellow;"></div>
+                            <div id="circle" class="mx-2" style="background-color: hotpink;"></div>
+                            <div id="circle" class="mx-2" style="background-color: grey;"></div>
+                            <div id="circle" class="mx-2" style="background-color: black;"></div>
+                            <div id="circle" class="mx-2" style="background-color: yellow;"></div>
+                            <div id="circle" class="mx-2" style="background-color: burlywood;"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="font-bold text-xl">Size</h3>
+                        <span class="mt-5">
+                            <ul class="flex">
+                                <li class="px-4"><a href="">L</a></li>
+                                <li class="px-4"><a href="">M</a></li>
+                                <li class="px-4"><a href="">S</a></li>
+                            </ul>
+                        </span>
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="font-bold text-xl">Top Items</h3>
+                        <div class="flex justify-center items-center">
+                            <div class=" flex justify-center items-center p-2">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_12-1-150x150.png"
+                                    alt="">
+                            </div>
+                            <div class="ml-5">
+                                <p>Acetate Frame Sunglasses</p>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center items-center mt-2 p-2">
+                            <div class="flex justify-center items-center p-2">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_8-150x150.png"
+                                    alt="">
+                            </div>
+                            <div class="ml-5">
+                                <p>Acetate Frame Sunglasses</p>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center items-center mt-2">
+                            <div class=" flex justify-center items-center p-2">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_2-150x150.png"
+                                    alt="">
+                            </div>
+
+                            <div class="ml-5">
+                                <p>Acetate Frame Sunglasses</p>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center items-center">
+                            <div class=" flex justify-center items-center p-2">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/08/p_12-1-150x150.png"
+                                    alt="">
+                            </div>
+                            <div class="ml-5">
+                                <p>Acetate Frame Sunglasses</p>
+                                <span class="flex">
+                                    <p class="text-lg">$10.00</p>
+                                    <p class="px-4">-</p>
+                                    <p class="text-lg">$70.00</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="mt-20 bg-black">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="md:grid grid-cols-4 gap-5">
+                <div class="mt-16 ">
+                    <a href="">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/03/footerlogo.png"
+                            alt="Metro" width="159">
+                    </a>
+                    <div class="text-white mt-10 ">
+                        <span class="flex items-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p class="px-5">59 Street, Newyork City, Rose Town, 05 Rive House</p>
+                        </span>
+                        <span class="flex items-center mt-3">
+                            <i class="fas fa-phone-volume"></i>
+                            <a href="">
+                                <p class="px-5">+123 456 7890</p>
+                            </a>
+                        </span>
+                        <span class="flex items-center mt-3">
+                            <i class="fas fa-envelope"></i>
+                            <a href="">
+                                <p class="px-5">info@example.com</p>
+                            </a>
+                        </span>
+
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="mt-16 font-bold text-white text-xl uppercase pb-3">Information
+                    </h4>
+                    <hr class="w-12 h-1 rounded-full bg-white">
+                    <div class="text-white mt-10">
+                        <p class="mt-3">About Us</p>
+                        <p class="mt-3">Latest Post</p>
+                        <p class="mt-3">Selling Tips</p>
+                        <p class="mt-3">Advertising</p>
+                        <p class="mt-3">Contact Us</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="mt-16 font-bold text-white text-xl uppercase pb-3">
+                        My Account</h4>
+                    <hr class="w-12 h-1 rounded-full bg-white">
+                    <div class="text-white mt-10">
+                        <p class="mt-3">My Account</p>
+                        <p class="mt-3">Login/Register </p>
+                        <p class="mt-3">Cart</p>
+                        <p class="mt-3">Wishlist</p>
+                        <p class="mt-3">Order History </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="mt-16 font-bold text-white text-xl uppercase pb-3">
+                        Helps & Support
+                    </h4>
+                    <hr class="w-12 h-1 rounded-full bg-white">
+                    <div class="text-white mt-10">
+                        <p class="mt-3">How To Shop</p>
+                        <p class="mt-3">Payment </p>
+                        <p class="mt-3">Returns</p>
+                        <p class="mt-3">Delivery</p>
+                        <p class="mt-3">Privacy & Cookie Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-white mt-8 md:mt-20 h-48">
+            <div class="md:grid xl:grid-cols-4 gap-5 mt-8 md:mt-20 container mx-auto ">
+                <div class="col-span-2">
+                    <p class="text-white">© Copyright Metro 2020. Designed and Developed by
+                        <span><a href="" class=" hover:underline">
+                                RadiusTheme</a></span></p>
+                </div>
+
+                <div class="flex mt-4 md:mt-0 text-white">
+                    <a href="" class="px-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="px-2"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="px-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="" class="px-2"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="px-2"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="" class="px-2"><i class="fas fa-rss"></i></a>
+                </div>
+
+                <div class="flex mt-4 md:mt-0">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment1.png"
+                        alt="" class="md:px-4 px-3">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment2.png"
+                        alt="" class="px-4">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment3.png"
+                        alt="" class="px-4">
+                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment4.png"
+                        alt="" class="px-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btnMobile = document.querySelector('#btn-mobile');
+        const btnMenu = document.querySelector('#btn-menu');
+        btnMobile.addEventListener('click', function () {
+            btnMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
